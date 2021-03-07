@@ -1,3 +1,6 @@
+<app-panel>
+<div style="border:3px solid blue;display: inline-block;margin:2px;" >
+
 <div class="box" [class.selected] = "isSelected"
  style="width:200px;display: inline-block;border: 1px solid
 gray;text-align: center;"
@@ -7,6 +10,9 @@ gray;text-align: center;"
     <span>price: {{ product.price }} bath</span>  
 </p>
 <p>
-    <button (click)="select()">Buy</button> 
+    <button class="btn btn-primary" (click)="select()">Buy</button> 
 </p>
 </div>
+
+</div>
+</app-panel>
